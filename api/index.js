@@ -6,7 +6,7 @@ module.exports = async (req, res) => {
     const referralFileName = `ref-${ref}.txt`;
   
     // APK download link
-    const githubUrl = "https://github.com/greenMart0/greenMart/releases/download/v1.0.0/app.apk";
+    const githubUrl = "https://objects.githubusercontent.com/github-production-release-asset-2e65be/906700536/ff2c8204-49a3-4c17-93c5-3e8a6c6459b1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250210%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250210T091527Z&X-Amz-Expires=300&X-Amz-Signature=6570eb2c0b65ff06245f19f8fcda34fdcd7e11345b826aaa060de493ad139b45&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Dapp-release.apk&response-content-type=application%2Fvnd.android.package-archive";
   
     // HTML with CSS animation and JS logic
     const htmlContent = `
